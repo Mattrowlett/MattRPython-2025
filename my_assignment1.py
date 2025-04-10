@@ -20,7 +20,29 @@
 # Part a) Variance
 ##################################################
 
-Va
+def variance(x):
+    """
+    Calculates the variance of a list x.
+    
+    Some examples are given below but you need to add some 
+    that result in the answers given.
+    
+    >>> variance([101, 103, 94, 102, 100])
+    10.0
+    >>> variance([99,101,99,101,99,101])
+    1.0
+    >>> variance([])
+    0.0
+    
+    """
+    
+    n = 7 # Modify this line.
+    x_bar = 8 # Modify this line.
+    
+    var = 9 # Modify this line.
+    
+    return var
+
 
 
 ##################################################
