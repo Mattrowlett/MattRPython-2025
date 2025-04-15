@@ -35,7 +35,8 @@ def variance(x):
     0.0
     
     """
-    
+
+    # Where's the answer?
     n = 7 # Modify this line.
     x_bar = 8 # Modify this line.
     
@@ -78,7 +79,7 @@ def covariance(y, x):
        
     cov = cov / (n-1) 
     return cov
-    n = 1 # Modify this line.
+    # n = 1 # Modify this line.
     
  
 
@@ -107,8 +108,8 @@ def ols_slope(y, x):
     
     
     """
-     
-def ols_slope(y, x):
+    # Remove duplicate def statement. 
+    # def ols_slope(y, x):
     covar = covariance(y, x)  # Modify this line.
     var = varinace(x)         # Modify this line.
     slope = covar / var       # Modify this line.
@@ -136,7 +137,7 @@ def ols_intercept(y, x, beta_1_hat):
     
     
     """
-    
+    # Where's the answer?
     n = 7 # Modify this line.
     x_bar = 8 # Modify this line.
     y_bar = 9 # Modify this line.
