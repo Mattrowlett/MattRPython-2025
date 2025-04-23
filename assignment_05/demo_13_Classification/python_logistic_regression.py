@@ -109,7 +109,7 @@ credit[['AA','A','B','C']].describe()
 credit.corr()
 # Look at a few variables at a time.
 credit[['default','bmaxrate','amount','close','bankcardutil']].corr()
-credit[['default','AA','A','B','C']].corr()
+credit[['default','AA','A','B','C','D']].corr()
 
 # Inspect the target variable.
 credit['default'].value_counts()
@@ -123,7 +123,7 @@ credit.groupby('default').mean()
 
 # Look at a few variables at a time.
 credit[['default','bmaxrate','amount','close','bankcardutil']].groupby('default').mean()
-credit[['default','AA','A','B','C']].groupby('default').mean()
+credit[['default','AA','A','B','C','D']].groupby('default').mean()
 
 # As a rule, if the distribution of the explanatory variables differ 
 # between the Y = 1 and Y = 0 observations, 
