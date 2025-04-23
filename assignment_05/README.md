@@ -41,7 +41,7 @@ bankcardutil    -0.9276      0.181     -5.138      0.000      -1.282      -0.574
 This model has the following ROC curve.
 
 
-<img src="Logit_ROC_full.png" width="500" alt=ROC Curve for Logistic Regression"/>
+<img src="Logit_ROC_full.png" width="500/>
 
 
 
