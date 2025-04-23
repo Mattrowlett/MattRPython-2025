@@ -2,17 +2,13 @@
 """
 ##################################################
 #
-# QMB 3311: Python for Business Analytics
+# QMB 6315: Python for Business Analytics
 #
 # Data Analysis with Pandas: Logistic Regression
 #
-# Lealand Morin, Ph.D.
-# Assistant Professor
-# Department of Economics
-# College of Business Administration
 # University of Central Florida
 #
-# March 21, 2021
+# April 23, 2025
 #
 # This script outlies a few approaches to logistic regression in python.
 # It uses a sample dataset credit_data.csv with the following variables:
@@ -61,7 +57,7 @@ sns.set(style="whitegrid", color_codes=True)
 os.getcwd()
 # Change to a new directory.
 git_path = 'C:\\Users\\Matt Rowlett\\OneDrive - University of Central Florida\\Desktop\\GitHub QMB6315 Python\\MattRPython-2025\\assignment_05\\demo_13_Classification'
-os.chdir(git_path + 'demo_19_Classification')
+#os.chdir(git_path + 'demo_19_Classification')
 # Check that the change was successful.
 os.getcwd()
 
