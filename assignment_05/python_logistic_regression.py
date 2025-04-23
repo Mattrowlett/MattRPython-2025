@@ -272,7 +272,7 @@ plt.legend(loc="lower right")
 print("Saving plot to Logit_ROC_decision.png")
 plt.savefig('Logit_ROC_decision.png')
 print("Plot saved")
-plt.close()
+plt.show()
 
 
 ##################################################
