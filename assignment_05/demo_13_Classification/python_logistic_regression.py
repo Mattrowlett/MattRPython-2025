@@ -5,7 +5,7 @@
 # QMB 6315: Python for Business Analytics
 #
 # Data Analysis with Pandas: Logistic Regression
-#
+# Matt Rowlett
 # University of Central Florida
 #
 # April 23, 2025
