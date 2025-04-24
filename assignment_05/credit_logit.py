@@ -151,12 +151,8 @@ logit_model_fit_sm = logit_model_sm.fit()
 # Display the parameters.
 print(logit_model_fit_sm.params)
 
-
-
 # Display a summary table of regression results.
 print(logit_model_fit_sm.summary())
-
-
 
 #--------------------------------------------------
 # Fit the Logistic Model (with sklearn module).
@@ -172,8 +168,6 @@ X = credit.loc[:, credit.columns != 'default']
 y = credit.loc[:, credit.columns == 'default']
 
 # Normally would have saved some data for testing but can calculate ROC in sample.
-
-
 
 # Initialize the regression model object.
 logit_model_fit_sk = LogisticRegression()
@@ -201,7 +195,6 @@ pred_probs.max()
 
 # Plotting an ROC Curve
 
-
 # Calculate the values required for an ROC curve.
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import roc_curve
@@ -221,7 +214,6 @@ plt.title('Receiver Operating Characteristic')
 plt.legend(loc="lower right")
 plt.savefig('Logit_ROC.pdf')
 plt.show()
-
 
 # regression without bxaxrate and amount
 
