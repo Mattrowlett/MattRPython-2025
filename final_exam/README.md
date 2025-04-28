@@ -7,16 +7,7 @@
 ## Recommended model
 
 Enter the summary statistics from your recommended model in the code block below.
-Python 3.12.7 | packaged by Anaconda, Inc. | (main, Oct  4 2024, 13:17:27) [MSC v.1929 64 bit (AMD64)]
-Type "copyright", "credits" or "license" for more information.
 
-IPython 8.27.0 -- An enhanced Interactive Python.
-
-runfile('C:/Users/Matt Rowlett/OneDrive - University of Central Florida/Desktop/GitHub QMB6315 Python/MattRPython-2025/final_exam/purchases.py', wdir='C:/Users/Matt Rowlett/OneDrive - University of Central Florida/Desktop/GitHub QMB6315 Python/MattRPython-2025/final_exam')
-Applications schema: [(0, 'app_id', 'INTEGER', 0, None, 0), (1, 'ssn', 'INTEGER', 0, None, 0), (2, 'zip_code', 'INTEGER', 0, None, 0), (3, 'income', 'REAL', 0, None, 0), (4, 'homeownership', 'TEXT', 0, None, 0), (5, 'purchases', 'REAL', 0, None, 0), (6, 'credit_limit', 'REAL', 0, None, 0)]
-CreditBureau schema: [(0, 'ssn', 'INTEGER', 0, None, 0), (1, 'zip_code', 'INTEGER', 0, None, 0), (2, 'fico', 'REAL', 0, None, 0), (3, 'num_late', 'INTEGER', 0, None, 0), (4, 'past_def', 'INTEGER', 0, None, 0), (5, 'num_bankruptcy', 'INTEGER', 0, None, 0)]
-Demographic schema: [(0, 'zip_code', 'INTEGER', 0, None, 0), (1, 'avg_income', 'REAL', 0, None, 0), (2, 'density', 'REAL', 0, None, 0)]
-SELECT * FROM Applications
 Question 1b: DataFrame Description
               app_id           ssn  ...     purchases  credit_limit
 count     500.000000  5.000000e+02  ...    500.000000    500.000000
