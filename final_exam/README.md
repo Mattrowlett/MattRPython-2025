@@ -2,12 +2,7 @@
 ## Spring 2025
 
 # Final Examination
-
-
-## Recommended model
-
-Enter the summary statistics from your recommended model in the code block below.
-
+'''
 Question 1b: DataFrame Description
               app_id           ssn  ...     purchases  credit_limit
 count     500.000000  5.000000e+02  ...    500.000000    500.000000
@@ -209,6 +204,7 @@ min        0.044167
 75%        0.942306
 max        1.000000
 Name: utilization, dtype: float64
+
 Question 4c: Regression Model for Utilization
                             OLS Regression Results                            
 ==============================================================================
@@ -279,6 +275,14 @@ Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 [2] The condition number is large, 7.6e+05. This might indicate that there are
 strong multicollinearity or other numerical problems.
+'''
+
+
+## Recommended model
+
+Enter the summary statistics from your recommended model in the code block below.
+
+
 
 
 ```
