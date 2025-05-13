@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\MORIL027\Documents\GitHub\QMB6315S25_Grading\MattRPython-2025\final_exam\purchases.py", line 48, in <module>
+    conn = sqlite3.connect(r"C:\Users\Matt Rowlett\OneDrive - University of Central Florida\Desktop\GitHub QMB6315 Python\MattRPython-2025\final_exam\customers.db")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
